@@ -1,0 +1,8 @@
+draw_text(0,0,"Use AWDS to move.");
+draw_text(0,32,"Use E to open doors");
+draw_text(0,96,"Press O if you want to see collisions.");
+switch(inventario_glo.Gun_1){case 0:
+draw_text(0,64,"Press 1 to get a gun and 2 if you want to create a block.");break;
+
+case 1: draw_text(0,64,"Click the left button to fire.");break;
+case 2: draw_text(0,64,"Use enter to rotate the block, arrow keys to move, Z and X to select the type of block, and the space bar or left click to create the block.");break;}
