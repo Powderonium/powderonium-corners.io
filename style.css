@@ -1,0 +1,64 @@
+* {
+	margin:0;
+	padding:0;
+	
+	
+}
+
+body {
+	background-color: #eee
+	
+}
+
+.wrapper{
+	margin: 0 auto;
+	width:1400px; 
+	height:1000px; 
+}
+
+.img-pixel{
+	
+	width:300px;
+	
+}
+
+video{width:100%;}
+
+nav {
+	width: 100%;
+	height: 100px;
+	background-color: #fff;
+	
+	
+}
+
+ul{
+	margin-left: 20px;
+	
+}
+
+ul li{
+	list-style: noone;
+	display: inline-block;
+	float:left;
+	line-height: 100px;
+}
+
+
+ul li a{
+	display:block;
+	text-decoration: none;
+	font-size:14;
+	font-family:arial;
+	color:#1e1e1e;
+	padding: 0 20px;
+	
+	}
+	
+	
+ul li a:hover{
+	
+	color:blue;
+
+	
+	}
